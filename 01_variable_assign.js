@@ -1,11 +1,11 @@
 
-var myName = "Pooja Aldar";
+var myFullName 
 console.log(myName);
 
 var myName = "Pooja Bhimrao Aldar";
 console.log(myName);
 
-var myLove = "i love only JS.";
+var myLove = "I love only JS.";
 console.log(myLove);
 
 var age = "25";
