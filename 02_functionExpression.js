@@ -15,3 +15,4 @@ var substraction = function(num1, num2){
 }
 var result = substraction(45, 20);
 console.log(result);
+
