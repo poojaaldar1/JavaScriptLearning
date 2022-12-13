@@ -36,10 +36,12 @@ console.log("--------------------------------------------------------------");
 console.log("----5. string:JS is the most popular language----");
 
 var string =" JS the most popular language" ;
+
 console.log("1.Total no of character is", string.length);
 console.log("2.character at index 6 is", string.charAt(6));
 console.log("3.character at index 6 is", string.charAt(11));
 var totalLength= string.length
 console.log("4.character at last", string.charAt(totalLength-1));
-
 console.log("5.character at first", string.charAt(1));
+var square = string.length*string.length
+console.log( "6.Square of string is", square);
