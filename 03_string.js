@@ -58,14 +58,39 @@ console.log("Total words in sentence string is: ", wordsInSentence.length);
 console.log("======== String template ==========");
 console.log(`Yes you can do it "Sanket"  `);
 
-
 var firstName = "Mohit ";
 var lastName = "Sharma";
 console.log("First name is: "+ firstName + "Last name is: "+ lastName );
-
 console.log(`First name is: ${firstName} and last name is ${lastName}`);
 
 
 console.log("Hello", "\nGood", " \nMorning"  );
 
 
+var string="JS the most popular language"
+console.log("1) Total character in string is=", string.length);
+console.log("2) Character at index 6 is", string.charAt(6));
+console.log("3) Character at index 11 is", string.charAt(11));
+
+var totallenght=string.length;
+console.log("4) Last character is", string.charAt(totallenght-1));
+console.log("5) First character is", string.charAt(0));
+console.log("6) Total length of string =", string.length);
+console.log("7) square of length of string =", string.length*string.length);
+
+
+
+console.log(`=======================================`);
+var assign = function(){
+    var string="JS the most popular language"
+    console.log("1) Total character in string is=", string.length);
+    console.log("2) Character at index 6 is", string.charAt(6));
+    console.log("3) Character at index 11 is", string.charAt(11));
+    
+    var totallenght=string.length;
+    console.log("4) Last character is", string.charAt(totallenght-1));
+    console.log("5) First character is", string.charAt(0));
+    console.log("6) Total length of string =", string.length);
+    console.log("7) square of length of string =", string.length*string.length);
+}
+assign();
