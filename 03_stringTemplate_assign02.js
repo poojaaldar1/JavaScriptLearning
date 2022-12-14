@@ -16,7 +16,7 @@ var stringHandsOn = function () {
     console.log("----3.Removing Extra Space-----");
     var aftterTrim = greet.trim()
     console.log(aftterTrim);
-
+  
     console.log("--------------------------------------------------------------");
 
     console.log("----4.Total no of count of removing space-----");
@@ -54,7 +54,6 @@ var stringHandsOn = function () {
     console.log("----10.Include-----");
     console.log(aftterTrim.includes("Hey"));
     console.log("--------------------------------------------------------------");
-
 
 
 }
