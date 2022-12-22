@@ -67,3 +67,27 @@ gradeCalculation(64);
 gradeCalculation(49);
 gradeCalculation(91);
 gradeCalculation("eighty");
+
+
+console.log(`---------------------------------------------------------------------------------------------------`);
+ 
+var marriageEligibilty = function (gender , age){
+
+  if (male<21 & female<18) {
+      console.log(`Gender:${gender} & Age:${age}, Sorry your not eligible for marriage.`);
+  } else {
+      if (male>21||female>18) {
+        console.log(`Gender:${gender} & Age:${age}, Sorry your not eligible for marriage.`);
+      }
+      if (male) {
+        
+      }
+  }
+
+}
+marriageEligibilty ("male", 17);
+marriageEligibilty ("male", 17);
+marriageEligibilty ("male", 17);
+marriageEligibilty ("male", 17);
+marriageEligibilty ("male", 17);
+marriageEligibilty ("male", 17);
