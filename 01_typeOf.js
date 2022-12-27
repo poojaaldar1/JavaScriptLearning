@@ -1,9 +1,11 @@
 
 console.log("==== value before intialisation ====");
+
 var bankName;
 console.log(bankName);
 
 console.log("==== value after intialisation with data type====");
+
 var bankName = "SBI Bank";
 console.log(bankName);
 console.log( typeof bankName);
