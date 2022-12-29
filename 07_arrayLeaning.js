@@ -2,15 +2,15 @@ let arrayOfName =[7, 4, 8, 6, 10, 3];//Empty Array
 console.log(arrayOfName);
 
 
-let arrayOfNumbers = [5, 10, 4, 6, 7, 10, 6]; // With value
+var arrayOfNumbers = [5, 10, 4, 6, 7, 10, 6]; // With value
 console.log(arrayOfNumbers);
 
 console.log(`===== Total number of elements available in array ====`);
-let totalElements = arrayOfNumbers.length;
+var  totalElements = arrayOfNumbers.length;
 console.log(`Total Elements in arrayOfNumbers --> ${totalElements}`);
 
 
-let typeOfArray = typeof arrayOfNumbers;
+var typeOfArray = typeof arrayOfNumbers;
 console.log(`Type of array - array OfNumbers--> ${typeOfArray}`);
 
 let arrayOfNumbers = [5, 10, 4, 6, 7, 10, 6]; // Empty Array
@@ -57,8 +57,7 @@ for (let index = 0; index < arrayOfNumbers.length; index++) {//index = 0 1 2
             const element = arrayOfNumbers [index];
             console.log(element);
         }
-        
-    }
+            }
 
  
     console.log(`Traversing array using for loop in Reverse order`);
@@ -86,7 +85,6 @@ for (let index = 0; index < arrayOfSalaries.length; index++) {
     sumOfSal = sumOfSal+element;
 }
 console.log(`Total Salary of all employee is : ${sumOfSal}`);
-
 
 
 console.log(`======== push() methods=========`);
