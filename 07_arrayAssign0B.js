@@ -4,6 +4,7 @@ console.log(
   `--------------1. Total Length of Array Element--------------------`
 );
 const arrayNumbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+console.log(`Array=${arrayNumbers}`);
 var length = arrayNumbers.length;
 console.log(`1.Total length of number: ${length}`);
 
@@ -16,35 +17,46 @@ console.log(`--------------3. First & Last element of array---------------`);
 console.log(`Element at third last index : ${arrayNumbers[length - 3]}`);
 
 console.log(`--------------4. All even numbers in array---------------`);
-
-
+var arrayNumber = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+var evenCount=""
+for (let index = 0; index < arrayNumber.length; index++) {
+  if (arrayNumber[index]%2==0) {
+  var evenCount= evenCount+" "+arrayNumber[index]
+  }
+  }
+console.log(`all even numbers in the array:${evenCount}`);
 
 console.log(`--------------5. All odd numbers in array---------------`);
-
-
-
+var arrayNumber = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+var evenCount=""
+for (let index = 0; index < arrayNumber.length; index++) {
+  if (arrayNumber[index]%2!=0) {
+  var evenCount= evenCount+" "+arrayNumber[index]
+  }
+  }
+console.log(`all odd numbers in the array:${evenCount}`);
 
 console.log(`------------6.Accessing only even indexed values--------------`);
-for (let index = 0; index < arrayNumbers.length; index = index + 2) {
-  if (index%2 !=0) {
-    let element = arrayNumbers[index];
-    console.log(element);
-  }
+var arrayNumber = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+console.log(arrayNumber);
+var evenInd =" "
+for (let index = 0; index < arrayNumber.length; index = index + 2) {
+  if (index%2==0) {
+    var evenInd = evenInd + ","+arrayNumber[index];
+      }
 }
+console.log(`Accessing even index elements ${evenInd}`);
 
-// console.log(`------------7.Accessing only odd indexed values--------------`);
-// for (let index = 0; index < arrayNumbers.length; index = index + 2) {
-//   if (index%2 !=0) {
-//     let element = arrayNumbers[index];
-//     console.log(element);
-//   }
-// }
-// // 20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11;
-// console.log(`------------7.Accessing only odd indexed values--------------`);
-// for (let index = 0; index < arrayNumbers.length; index = index + 2) {
-//   let element = arrayNumbers[index];
-//   console.log(element);
-// }
+console.log(`------------7.Accessing only odd indexed values--------------`);
+var arrayNumber = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+console.log(arrayNumber);
+var evenInd =" "
+for (let index = 0; index < arrayNumber.length; index++) {
+  if (index%2!=0) {
+    evenInd = evenInd+" "+arrayNumber[index]
+  }
+  }
+console.log(`Accessing odd index elements ${evenInd}`);
 
 
 console.log(`------------8.Sum of all elements--------------`);
@@ -56,10 +68,15 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 console.log(`Total Salary of all employee is : ${sumOfNum}`);
 
 
-
 console.log(`------------9.Multiple of 5--------------`);
-
-
+var arrayNumber = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+multiArray=" "
+for (let index = 0; index < arrayNumber.length; index++) {
+ if (arrayNumber[index]%5==0) {
+multiArray= multiArray+" "+arrayNumber[index]
+   }
+  }
+console.log(multiArray );
 
 
 console.log(`------------10.Is number 115 available --------------`);
@@ -79,5 +96,9 @@ console.log(arrayNumber);
 
 
 console.log(`------------13.Deleted 3 elements starting from index 4-------------`);
+var arrayNumber = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+console.log(arrayNumber);
+let arryNum = arrayNumber.splice(4,3)     //--4 is index,3 total deleted numbers
+console.log(`Removing three element from index 4 to 7: ${arrayNumber}`);
 
 
