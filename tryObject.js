@@ -19,7 +19,7 @@ const codemindMembers={
         // console.log(c);
       },
        other:{
-                                        //empety object
+                                                     //empety object
        }
 
      }
