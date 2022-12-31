@@ -7,8 +7,7 @@ const person = {
     speak: function(){
         console.log(`Hey I can speak English and Hindi`);
       }
-    
-  }
+      }
   console.log(typeof person);
   console.log(person);
   console.log(`Accessing object properties using dot notation`);
@@ -44,6 +43,8 @@ person.speak();
 
 
 console.log(`Nested object`);
+
+
 const student = {
     name: "Stew Jobs",
     age: 50,
