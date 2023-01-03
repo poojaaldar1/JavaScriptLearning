@@ -59,7 +59,8 @@ const student = {
     familyMemberNames: [ 'Tony', 'Lonny', 'Jenny', 'Watigton']
 
 }
-
+var list =student.marks.add()
+console.log(list);
 
 console.log(`Accessing an Nested object property`);
 const scienceMark =  student.marks.science;
