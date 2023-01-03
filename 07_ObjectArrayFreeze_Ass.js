@@ -32,8 +32,8 @@ var frzng= Object.freeze(frnds);
 console.log(frzng);
 
 console.log(`-------------5.Iterate Array-------------`);
-for (const iterator of object) {
-    
+for (const element of frnds) {
+    console.log(element);
 }
 
 console.log(`-------------6.Reverse word-------------`);
