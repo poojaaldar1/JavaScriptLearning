@@ -1,4 +1,7 @@
 
+console.log(`------*********. MAP ASSIGNMENT*********-------`);
+
+
 console.log(`------A. Cretaing class 'Bank' With properties & intilized using constructor-------`);
   class bank {
 
