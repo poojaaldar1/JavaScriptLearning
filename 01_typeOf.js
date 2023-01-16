@@ -33,3 +33,6 @@ console.log("==== value with data type ====");
 totalCount =107
 console.log(totalCount);
 console.log( typeof totalCount);
+
+
+
